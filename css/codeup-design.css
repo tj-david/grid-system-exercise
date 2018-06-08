@@ -1,0 +1,26 @@
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+.row-with-logo {
+    height: 75px;
+}
+
+.row-gray {
+    height: 50px;
+    background-color: rgb(240 240 240);
+}
+
+.navbar li {
+    font-size: .35em;
+}
+
+.toplinks {
+    font-size: .35em;
+    color: #000000;
+}
+
+.top-links {
+    background-color: rgb(240 240 240);
+}
