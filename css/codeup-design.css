@@ -24,3 +24,68 @@
 .top-links {
     background-color: rgb(240 240 240);
 }
+
+.circle-red  {
+
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #e6563b;
+    border-radius:50%;
+    border-color: #f0f0f0;
+    display: inline-block;
+    text-align: center;
+    /*line-height: 140px;*/
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.circle-orange  {
+
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #eb9d3a;
+    border-radius:50%;
+    border-color: #f0f0f0;
+    display: inline-block;
+    text-align: center;
+    /*line-height: 140px;*/
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.circle-green  {
+
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #7cb06c;
+    border-radius:50%;
+    border-color: #f0f0f0;
+    display: inline-block;
+    text-align: center;
+    /*line-height: 140px;*/
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.circle-blue  {
+
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #00aba9;
+    border-radius:50%;
+    border-color: #f0f0f0;
+    display: inline-block;
+    text-align: center;
+    /*line-height: 140px;*/
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.row2 {
+    line-height: 145px;
+    background-color: #e6e6e6;
+}
