@@ -15,7 +15,6 @@
 
 
     <body>
-        <div class="container ml-0 mr-0">
 
 
     <!--SMALL SCREEN LOGO-->
@@ -23,7 +22,7 @@
             <div class="row row-gray"></div>
             <div class="row row-with-logo align-items-center">
                 <div class="col-3"></div>
-                <div class="col-6">
+                <div class="col-6 d-flex justify-content-center">
                     <img class="logo" src="img/logo.png" alt="LOGO">
                 </div>
                 <div class="col-3"></div>
@@ -33,38 +32,30 @@
 
             <!--MAIN HEADER-->
             <div class="row row-gray text-center">
-                <div class="col">
+                <div class="col-12 pr-0">
                     <h2>codeup design</h2>
                 </div>
             </div>
 
             <!--TOP LINKS-->
             <div class="row top-links">
-                <div class="col-2 bg-gray"></div>
-                <div class="col-2 bg-gray pl-0">
-                    <a href="#" class="toplinks">SERVICES</a>
+                <div class="col-12 bg-gray">
+                    <ul class="toplinks d-flex flex-wrap justify-content-left">
+                        <li class="top-links col-3"><a href="#">SERVICES</a></li>
+                        <li class="top-links col-3"><a href="#">WORK</a></li>
+                        <li class="top-links col-3"><a href="#">BLOG</a></li>
+                        <li class="top-links col-3"><a href="#">CONTACT</a></li>
+                    </ul>
                 </div>
-                <div class="col-2 bg-gray">
-                    <a href="#" class="toplinks">WORK</a>
-                </div>
-                <div class="col-2 bg-gray">
-                    <a href="#" class="toplinks">BLOG</a>
-                </div>
-                <div class="col-2 bg-gray">
-                    <a href="#" class="toplinks">CONTACT</a>
-                </div>
-                <div class="col-2 bg-gray"></div>
             </div>
-        </div>
 
 
 
         <!--JUMBOTRON-->
-        <div class="jumbotron jumbotron-fluid mb-0">
-            <div class="container">
-                <div class="text-center">
-                    <h3 class="">VISUAL DESIGN & WEB DEVELOPMENT</h3>
-                    <p class="lead">FROM PARK CITY, UTAH</p>
+        <div class="row row2">
+            <div class="col-12 px-0">
+                <div class="d-flex justify-content-center">
+                    <h3 class="visual-header">VISUAL DESIGN & WEB DEVELOPMENT</h3>
                 </div>
             </div>
         </div>
@@ -73,12 +64,12 @@
 
         <!--FOUR CIRCLES-->
         <div class="row">
-            <div class="col-12 row2">
-                <ul class="four-circles pl-0 pb-0 d-flex flex-wrap justify-content-around">
-                    <li class="big-circle circle-red">DESIGN</li>
-                    <li class="big-circle circle-orange">DEVELOP</li>
-                    <li class="big-circle circle-green">SUPPORT</li>
-                    <li class="big-circle circle-blue">HOST</li>
+            <div class="col-12 row2 pr-0">
+                <ul class="four-circles pl-0 pb-0 d-flex flex-wrap justify-content-center">
+                    <li class="big-circle mr-4 ml-2 circle-red">DESIGN</li>
+                    <li class="big-circle mr-4 ml-2 circle-orange">DEVELOP</li>
+                    <li class="big-circle mr-4 ml-2 circle-green">SUPPORT</li>
+                    <li class="big-circle mr-4 ml-2 circle-blue">HOST</li>
                 </ul>
             </div>
         </div>
@@ -94,7 +85,7 @@
 
         <!--CARDS-->
         <div class="row row2">
-            <div class="col-12 mb-3 d-flex justify-content-center mt-3">
+            <div class="col-12 mb-3 pr-0 d-flex justify-content-center mt-3">
                 <div class="card card-border " style="width: 18rem;">
                     <img class="card-img-top" src="img/apple-ipad.jpg" alt="Card image cap">
                     <ul class="card-body row2 px-0 pb-0 pt-1">
@@ -110,6 +101,7 @@
                     </ul>
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- Optional JavaScript -->

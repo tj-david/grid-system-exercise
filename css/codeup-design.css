@@ -19,14 +19,23 @@
 .toplinks {
     font-size: .35em;
     color: #000000;
+    display: inline-block;
 }
 
 .top-links {
     background-color: #f0f0f0;
+    text-align: right;
+    list-style: none;
 }
 
-.jumbotron-fluid {
-    background-color: #f0f0f0;
+.top-services {
+    text-align: right;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Anton;
+    text-align: center;
 }
 
 .four-circles {
@@ -39,16 +48,16 @@
 }
 
 .big-circle {
-    padding-top: 50px;
+    padding-top: 36px;
     display: inline-block;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     font-family: Anton;
     align-content: center;
     color: #ffffff;
     border: 6px solid #ffffff;
-    height: 150px;
-    width: 150px;
+    height: 115px;
+    width: 115px;
     border-radius: 50%;
 }
 
