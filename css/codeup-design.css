@@ -1,8 +1,5 @@
-body {
-    background-color: #f0f0f0;
-}
-
-.row2 {
+body,
+.gray-bg {
     background-color: #f0f0f0;
 }
 
@@ -11,10 +8,10 @@ body {
 
 
 
-/*RELATED TO LOGO & COMPANY NAME*/
+/*LOGO & COMPANY NAME*/
 .logo {
-    width: 130px;
-    height: 130px;
+    width: 105px;
+    height: 105px;
 }
 
 .logo-list {
@@ -24,7 +21,7 @@ body {
 .logo-items {
     display: inline-block;
     z-index: 900;
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
 }
 
 .logo-items a {
@@ -39,17 +36,17 @@ body {
 }
 
 .row-gray {
-    height: 40px;
+    height: 35px;
     background-color: #f0f0f0;
 }
 
 .company-name {
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
     font-size: 40px;
 }
 
 .company-name-top {
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
     font-size: 32px;
 }
 
@@ -59,7 +56,10 @@ body {
 
 
 
-/*RELATED TO NAV LINKS*/
+
+
+
+/*NAV LINKS*/
 .navbar li {
     font-size: .35em;
 }
@@ -73,7 +73,7 @@ body {
     background-color: #f0f0f0;
     list-style: none;
     text-align: center;
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
 }
 
 .top-links a {
@@ -88,18 +88,31 @@ body {
     text-align: right;
 }
 
-/*RELATED TO MAIN HEADER & SUB-HEADER*/
+
+
+
+
+
+
+
+/*MAIN HEADER & SUB-HEADER*/
 h3 {
     font-size: 40px;
-    font-family: Anton;
+    font-family: Anton, Helvetica, sans-serif;
     text-align: center;
 }
 
 .sub-header {
     font-size: 28px;
-    font-family: Anton;
+    font-family: Anton, Helvetica, sans-serif;
 }
 
+
+
+
+
+
+/*FOUR CIRCLES*/
 .four-circles {
     background-color: #f0f0f0;
 }
@@ -114,7 +127,7 @@ h3 {
     display: inline-block;
     text-align: center;
     font-size: 20px;
-    font-family: Anton;
+    font-family: Anton, Helvetica, sans-serif;
     align-content: center;
     color: #ffffff;
     border: 6px solid #ffffff;
@@ -139,14 +152,23 @@ h3 {
     background-color: #00aba9;
 }
 
+
+
+
+
+/*<hr>*/
 .horizontal-break {
     width: 90%;
     border: solid 1px #c3c3c3;
 }
 
+
+
+
+/*SELECTED AND FEATURED WORKS*/
 .selected-work,
 .last-work {
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -167,7 +189,7 @@ h3 {
 
 .featured {
     font-size: 16px;
-    font-family: Abel;
+    font-family: Abel, Helvetica, sans-serif;
     float: left;
 }
 
@@ -175,7 +197,7 @@ h3 {
     display: inline-block;
     text-align: center;
     font-size: 12px;
-    font-family: Anton;
+    font-family: Anton, Helvetica, sans-serif;
     align-content: center;
     color: #000;
     height: 24px;
@@ -214,7 +236,7 @@ h3 {
 }
 
 .side-bar-items {
-    font-family: Anton;
+    font-family: Anton, Helvetica, sans-serif;
     line-height: 32px;
 }
 
@@ -234,6 +256,27 @@ h3 {
     width: 64px;
     height: 64px;
 }
+
+.fa-twitter {
+    color: #009CFB;
+}
+
+.last-tweet span {
+    font-family: Abel, Helvetica, sans-serif;
+}
+
+.last-tweet p {
+    font-family: Abel, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/*================= M E D I A   Q U E R I E S ====================*/
 
 
 /*MANUALLY HIDE ON XS SCREENS*/
@@ -267,7 +310,7 @@ h3 {
     .last-work h6 {
         display: none;
     }
-    
+
     .visual-header {
         font-size: 48px;
     }
@@ -280,7 +323,8 @@ h3 {
     .big-circle {
         margin: 0 2em;
     }
+}
 
 
-/*MANUALLY HIDE ON LG SCREENS*/
-@media screen and (max-width: 1200px)
+/*!*MANUALLY HIDE ON LG SCREENS*!*/
+/*@media screen and (max-width: 1200px)*/
