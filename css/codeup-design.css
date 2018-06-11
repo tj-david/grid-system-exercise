@@ -96,14 +96,14 @@ body,
 
 
 /*MAIN HEADER & SUB-HEADER*/
-h3 {
-    font-size: 40px;
+h1 {
+    /*font-size: 40px;*/
     font-family: Anton, Helvetica, sans-serif;
     text-align: center;
 }
 
 .sub-header {
-    font-size: 28px;
+    font-size: 40px;
     font-family: Anton, Helvetica, sans-serif;
 }
 
@@ -153,12 +153,15 @@ h3 {
 }
 
 
-
+.container {
+    width: 100%;
+    margin: 0 auto !important;
+}
 
 
 /*<hr>*/
 .horizontal-break {
-    width: 90%;
+    width: 95%;
     border: solid 1px #c3c3c3;
 }
 
@@ -188,7 +191,7 @@ h3 {
 }
 
 .featured {
-    font-size: 16px;
+    font-size: 12px;
     font-family: Abel, Helvetica, sans-serif;
     float: left;
 }
@@ -196,12 +199,12 @@ h3 {
 .icon-group {
     display: inline-block;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     font-family: Anton, Helvetica, sans-serif;
     align-content: center;
     color: #000;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
 }
 
@@ -248,13 +251,13 @@ h3 {
     float: left;
 }
 
-.right-text-alignment h4 {
-    font-size: 28px;
+.right-text-alignment h5 {
+    /*font-size: 28px;*/
 }
 
 .list-group-item img {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
 }
 
 .fa-twitter {
@@ -322,6 +325,19 @@ h3 {
 
     .big-circle {
         margin: 0 2em;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .big-circle{
+        /*width: 0 auto;*/
+        margin: 0 3em;
+    }
+
+    .container-fluid .container-fluid {
+        width: 75%;
     }
 }
 
